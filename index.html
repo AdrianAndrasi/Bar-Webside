@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="intro">
+        <div class="topnav" id="myTopnav">
+            <ul>
+                <li><a href="#">ÚVODNÁ STRÁNKA</a></li>
+                <li><a href="#">O NÁS</a></li>
+                <li><a href="#">CENNÍK</a></li>
+                <li><a href="#">KONTAKT</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>  
+            </ul>
+        </div>
+        <div class="intro-text">
+            <h1>Robíme kávu z láskou</h1>
+        </div>
+        
+    </div>
+    <div class="about">
+        <div class="about-box">
+            <img src="images/barman.jpg" width= "100%" height="100%">
+        </div>
+        <div class="about-box">
+            <h2>Náš príbeh</h2>
+            <h4>Adrián Andrási</h4>
+            <h5>Majitel</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="contact-box">
+            <h2>Cafe</h2>
+            <h3>Navštivte nás</h3>
+            <p>Hlavné Namestie, Bratislava</p>
+            <h3>Zavolajte nám</h3>
+            <p>+421 901 234 567</p>
+            <h3>Napište nám</h3>
+            <p>demo@gmail.com</p>
+        </div>
+        <div class="contact-box">
+            <h2>Otvaracia doba</h2>
+            <h3>Pondelok-Piatok</h3>
+            <p>10:00 - 20:00</p>
+            <h3>Sobota - Nedeľa</h3>
+            <p>11:00 - 22:00</p>
+        </div>
+        <div class="contact-box" id="map">
+            
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p>Adrián Andrási 2020</p>
+    </div>
+    <script src="map.js"></script>
+    <script src="nav-bar.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuULEbzcp8CNkkDl1hxVs_IJxv5OB12oM&callback=initMap">
+    </script>
+</body>
+</html>
